@@ -44,6 +44,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         echo "Idade: <input type='number' name='age$i' required><br>";
         echo "Sexo: <input type='text' name='gender$i' required><br>";
     }
-    echo "<input type='submit' value='Calcular'>";
+    echo "<input type='submit' value='Enviar'>";
     echo "</form>";
 }
